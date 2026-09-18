@@ -4,6 +4,9 @@ go 1.27
 
 require github.com/pocketbase/pocketbase v0.40.4
 
+// The PocketBase pin doubles as the compatibility statement — see
+// "Versioning & PocketBase compatibility" in the README before bumping.
+
 require (
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
 	github.com/disintegration/imaging v1.6.2 // indirect

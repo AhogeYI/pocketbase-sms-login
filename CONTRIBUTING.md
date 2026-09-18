@@ -22,3 +22,10 @@ go build -o /dev/null ./example       # the integration example must keep compil
 
 One logical step per commit, `feat:` / `fix:` / `docs:` / `chore:` / `security:`;
 sign your commits (`git commit -s`, DCO).
+
+## PocketBase upgrades
+
+1. Bump the pin in `go.mod`.
+2. `go vet ./... && go test ./...` — fix whatever the new minor broke.
+3. Bump the extension's **minor**, add a row to the compatibility table in
+   the README, and name both versions (extension + PocketBase) in the release.
