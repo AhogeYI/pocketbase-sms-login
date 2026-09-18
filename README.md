@@ -1,5 +1,7 @@
 # pocketbase-sms-login
 
+[![ci](https://github.com/AhogeYI/pocketbase-sms-login/actions/workflows/ci.yml/badge.svg)](https://github.com/AhogeYI/pocketbase-sms-login/actions/workflows/ci.yml)
+
 Phone-number one-time-code login for [PocketBase](https://pocketbase.io) — a plain Go package in PocketBase's sanctioned `Register(app)` extension form (see PocketBase discussion [#7612](https://github.com/pocketbase/pocketbase/discussions/7612): plugins are ordinary Go modules, versioned via `go.mod`).
 
 ```
