@@ -1,11 +1,11 @@
-# 行为准则
+# Code of Conduct
 
-本项目采用 [Contributor Covenant v2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
-作为社区行为准则，**全文以该链接为准**（该文本以 CC BY 4.0 授权，可按原文引用）。
+This project follows the [Contributor Covenant v2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
+— that text is authoritative (CC BY 4.0).
 
-- **适用范围**：本仓库的 issue、PR、讨论区，以及任何以本项目名义进行的公开交流。
-- **联系方式**：`ahogeyi.dev@outlook.com`。所有投诉都会被审阅，处理过程对报告者保密。
-- **执行**：维护者可对违反者采取提醒、要求修改、删除内容、临时或永久禁止参与等措施；
-  对处理结果有异议，可通过同一邮箱申诉。
+- **Scope**: issues, PRs, discussions, and any public exchange made in this project's name.
+- **Contact**: `ahogeyi.dev@outlook.com`. Reports are reviewed and kept confidential.
+- **Enforcement**: maintainers may warn, require edits, remove content, or ban
+  temporarily/permanently; decisions can be appealed via the same address.
 
-请把技术分歧留在技术层面：对代码的批评欢迎，对人不欢迎。
+Keep technical disagreements technical: critique of code is welcome, critique of people is not.

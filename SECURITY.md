@@ -1,13 +1,14 @@
 # Security Policy
 
-## 报告漏洞
+## Reporting a vulnerability
 
-**请不要为安全问题开 public issue、PR 或讨论帖。**
+**Do not open public issues, PRs or discussions for security problems.**
 
-私下渠道（任选其一）：
+Private channels (either is fine):
 
-- 邮件到 `ahogeyi.dev@outlook.com`，主题加前缀 `[security]`；
-- GitHub 仓库的 **Security → Report a vulnerability**（私密安全公告）。
+- E-mail `ahogeyi.dev@outlook.com` with a `[security]` subject prefix;
+- GitHub **Security → Report a vulnerability** (private advisory).
 
-会在 72 小时内确认收到；修复与披露节奏私下协商。已知敏感面：OTP 预算绕过、
-fail-closed 语义破坏、限流器退化。
+You will get an acknowledgement within 72 hours; fix and disclosure timing is
+coordinated privately. Sensitive surfaces this project cares about:
+OTP budget bypasses, breaks of the fail-closed semantics, limiter regressions.

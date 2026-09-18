@@ -19,10 +19,19 @@ POST /api/auth/sms/verify   {"phone","code"}   → standard PocketBase auth resp
   - the limiter map is ceiling-bounded and sweeps expired windows.
 - Phone format: mainland-China mobile (`^1[3-9]\d{9}$`) — the only audience the built-in pattern serves; adjust `phonePattern` for other regions.
 
+## Requirements
+
+| Component | Version |
+|---|---|
+| Go | ≥ 1.27 (per `go.mod`) |
+| PocketBase | v0.40.x — developed and tested against v0.40.4 |
+
 ## Install
 
 ```go
 import (
+    "log"
+
     authsms "github.com/Ahogeyi/pocketbase-sms-login"
     "github.com/pocketbase/pocketbase"
 )

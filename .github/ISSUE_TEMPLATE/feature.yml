@@ -1,15 +1,15 @@
-name: 功能建议
-description: 新 provider、配额语义、地区号段等
+name: Feature request
+description: New providers, budget semantics, regions, algorithms…
 labels: [enhancement]
 body:
   - type: textarea
     id: what
     attributes:
-      label: 想解决什么问题
+      label: What problem does this solve
     validations:
       required: true
   - type: textarea
     id: how
     attributes:
-      label: 建议的形态
-      description: 尽量不破坏 fail-closed 与预算语义。
+      label: Suggested shape
+      description: Keep the fail-closed semantics and the abuse budgets intact.

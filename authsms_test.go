@@ -108,7 +108,7 @@ func TestSMSRequestAndVerifyFullFlow(t *testing.T) {
 		t.Fatalf("verify status = %d body = %s", rec.Code, rec.Body.String())
 	}
 	var auth struct {
-		Token string `json:"token"`
+		Token  string `json:"token"`
 		Record struct {
 			ID    string `json:"id"`
 			Phone string `json:"phone"`

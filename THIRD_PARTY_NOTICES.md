@@ -1,10 +1,12 @@
-# 第三方组件与许可证
+# Third-party notices
 
-pocketbase-sms-login 自身以 [Apache-2.0](LICENSE) 发布。本扩展为纯库，不随分发物内嵌第三方源码；
-以下为其构建（go.mod 依赖）所涉及的第三方组件：
+pocketbase-sms-login is distributed under [Apache-2.0](LICENSE). This
+extension is a pure library and embeds no third-party source; the components
+involved in its build (`go.mod` requirements) are:
 
-| 组件 | 许可证 | 说明 |
+| Component | License | Role |
 | --- | --- | --- |
-| [PocketBase](https://github.com/pocketbase/pocketbase) v0.40.4 | MIT | 宿主框架（扩展的 Register/钩子/OTP 存储均来自其公开 API） |
+| [PocketBase](https://github.com/pocketbase/pocketbase) v0.40.4 | MIT | Host framework (Register/hooks/OTP storage all come from its public API) |
 
-运行时镜像或使用方二进制中的完整传递依赖清单以 `go.mod` / `go.sum` 为准。
+The authoritative transitive list for any produced binary is the consumer's
+own `go.mod` / `go.sum`.

@@ -1,25 +1,18 @@
-name: Bug 报告
-description: 扩展行为与文档/预期不符
+name: Bug report
+description: Behaviour deviates from the docs or expectations
 labels: [bug]
 body:
   - type: textarea
     id: what
     attributes:
-      label: 现象与预期
-      description: 附最小复现（serve 命令、请求/响应、日志片段）。
+      label: What happened vs. what you expected
+      description: Include a minimal reproduction (serve command, request/response, log excerpt).
     validations:
       required: true
   - type: input
     id: versions
     attributes:
-      label: 版本
-      description: 本扩展版本（go.mod 或 tag）+ PocketBase 版本
+      label: Versions
+      description: This extension's version (tag or go.mod) + PocketBase version
     validations:
       required: true
-  - type: checkboxes
-    id: provider
-    attributes:
-      label: 配置
-      options:
-        - label: 已接入生产 SmsProvider（SetProvider）
-        - label: 使用 DEV 模式（RELAY_SMS_DEBUG=1）
